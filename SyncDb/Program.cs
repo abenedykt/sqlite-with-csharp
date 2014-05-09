@@ -1,78 +1,54 @@
 ﻿using System;
+using System.IO;
 using ServiceStack.DataAnnotations;
 using ServiceStack.OrmLite;
 using ServiceStack.OrmLite.Sqlite;
-
-
 namespace SyncDb
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
-OrmLiteConfig.DialectProvider = new SqliteOrmLiteDialectProvider(); 			
-var connectionString = "files.db";
+			const string connectionString = "sync.db";
+
+			OrmLiteConfig.DialectProvider = new SqliteOrmLiteDialectProvider();
 			var dbFactory = new OrmLiteConnectionFactory(connectionString, SqliteDialect.Provider, false);
 			
-				// Wrap all code in using statement to not forget about using db.Close()
+			// Wrap all code in using statement to not forget about using db.Close()
 			using (var db = dbFactory.Open())
 			{
-				db.CreateTableIfNotExists<Note>();
-				db.Insert(new Note
-				{
-					Name = "Hello",
-					Path = "World"
-				});
+				db.CreateTableIfNotExists<File>();
 
-				var notes = db.Where<Note>("Name", "Hello");
+				var path = new DirectoryInfo(args[0]);
+				
+				Console.WriteLine("path : {0}", path);
+				foreach (var file in path.GetFiles())
+				{
+					db.Insert(new File
+					{
+						Name = file.Name,
+						Path = file.FullName
+					});	
+				}
+				
+
+				var notes = db.Select<File>();
 				foreach (var note in notes)
 				{
 					Console.WriteLine(note.Name);
 				}
+
+				db.Close();
 			}
-
 		}
-
 	}
 
-		
-
-		class Note
+	public class File
 	{
 		[AutoIncrement]
-		// Creates Auto primary key
 		public int Id { get; set; }
 
 		public string Name { get; set; }
 		public string Path { get; set; }
 	}
-
-//	public class LocalStorage
-//	{
-//		private readonly string _fileName;
-//		private SQLiteConnection _connection;
-//
-//		public LocalStorage(string fileName)
-//		{
-//			_fileName = fileName;
-//			_connection = new SQLiteConnection(_fileName);
-//			_connection.Open();
-//			var newDatabase = _connection.CreateCommand();
-//			newDatabase.CommandText = "create table if not exists images (date text, file text, path text, sent integer)";
-//			newDatabase.ExecuteNonQuery();
-//			Console.WriteLine("created");
-//
-//		}
-//
-//		public void AddFile(string fileName)
-//		{
-//
-//
-//			var command = _connection.CreateCommand();
-//			command.CommandText = string.Format(@"INSERT INTO images values (""{0}"",""{1}"",""{2}"",{3})", fileName, fileName, fileName, 0);
-//			command.ExecuteNonQuery();
-//			Console.WriteLine("inserted");
-//		}
-//	}
-
 }
