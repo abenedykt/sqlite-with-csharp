@@ -1,0 +1,15 @@
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\x64\SQLite.Interop.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\x86\SQLite.Interop.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\SqLiteTesting.exe.config
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\SqLiteTesting.exe
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\SqLiteTesting.pdb
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\EntityFramework.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\EntityFramework.SqlServer.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\System.Data.SQLite.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\EntityFramework.xml
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\bin\Debug\EntityFramework.SqlServer.xml
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\obj\Debug\SqLiteTesting.csprojResolveAssemblyReference.cache
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\obj\Debug\SqLiteTesting.exe
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SqLiteTesting\obj\Debug\SqLiteTesting.pdb
