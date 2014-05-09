@@ -7,3 +7,10 @@ C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\System
 C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\System.Data.SQLite.xml
 C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\obj\Debug\SyncDb.exe
 C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\obj\Debug\SyncDb.pdb
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\EntityFramework.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\EntityFramework.xml
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\obj\Debug\SyncDb.csprojResolveAssemblyReference.cache
