@@ -1,6 +1,8 @@
 ﻿using System;
 using ServiceStack.DataAnnotations;
 using ServiceStack.OrmLite;
+using ServiceStack.OrmLite.Sqlite;
+
 
 namespace SyncDb
 {
@@ -8,7 +10,8 @@ namespace SyncDb
 	{
 		static void Main(string[] args)
 		{
-			var connectionString = "files.db";
+OrmLiteConfig.DialectProvider = new SqliteOrmLiteDialectProvider(); 			
+var connectionString = "files.db";
 			var dbFactory = new OrmLiteConnectionFactory(connectionString, SqliteDialect.Provider, false);
 			
 				// Wrap all code in using statement to not forget about using db.Close()
