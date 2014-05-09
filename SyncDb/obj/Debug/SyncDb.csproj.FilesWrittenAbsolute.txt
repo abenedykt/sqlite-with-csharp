@@ -1,0 +1,13 @@
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/sqlite3.dll
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/SyncDb.exe.config
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/SyncDb.exe.mdb
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/SyncDb.exe
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/obj/Debug/SyncDb.exe
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/obj/Debug/SyncDb.exe.mdb
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/Mono.Data.Sqlite.dll
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/ServiceStack.Common.dll
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/ServiceStack.Interfaces.dll
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/ServiceStack.OrmLite.dll
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/ServiceStack.OrmLite.Sqlite.dll
+/home/pi/sqlitetest/sqlite-with-csharp/SyncDb/bin/Debug/ServiceStack.Text.dll
