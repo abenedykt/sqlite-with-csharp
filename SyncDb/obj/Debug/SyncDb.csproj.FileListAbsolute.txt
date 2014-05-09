@@ -5,6 +5,5 @@ C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\SyncDb
 C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\SyncDb.pdb
 C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\System.Data.SQLite.dll
 C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\bin\Debug\System.Data.SQLite.xml
-C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\obj\Debug\SyncDb.csprojResolveAssemblyReference.cache
 C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\obj\Debug\SyncDb.exe
 C:\Visual Studio Projects\180_days_project\SqLiteTesting\SyncDb\obj\Debug\SyncDb.pdb

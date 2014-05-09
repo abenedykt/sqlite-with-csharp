@@ -1,4 +1,5 @@
-﻿using System.Data.SQLite;
+﻿using System;
+using System.Data.SQLite;
 
 namespace SyncDb
 {
@@ -25,6 +26,7 @@ namespace SyncDb
 			var newDatabase = _connection.CreateCommand();
 			newDatabase.CommandText = "create table if not exists images (date text, file text, path text, sent integer)";
 			newDatabase.ExecuteNonQuery();
+			Console.WriteLine("created");
 
 		}
 
@@ -35,6 +37,7 @@ namespace SyncDb
 			var command = _connection.CreateCommand();
 			command.CommandText = string.Format(@"INSERT INTO images values (""{0}"",""{1}"",""{2}"",{3})", fileName, fileName, fileName, 0);
 			command.ExecuteNonQuery();
+			Console.WriteLine("inserted");
 		}
 	}
 
